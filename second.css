@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color: #d5d5d5; */
+}
+img{
+        width: 150px;
+}
+header{
+display:flex;
+align-items: center;
+justify-content:space-between;
+padding: 20px;
+}
+header a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgb(60, 23, 192);
+    border-radius: 5px;
+}
+footer{
+
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+main{
+    background-color: royalblue;
+}
+.product{
+    text-align: center;
+    width: 27%;
+    margin: 20px 0;
+    padding: 20px;
+    border-style:double;
+    
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+img{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+}
+footer{
+  color:rgb(255, 255, 255);
+    background-color:rgb(52, 18, 177) ;
+    padding: 30px;
+}
+a{
+    color: rgb(255, 255, 255);
+   text-decoration:cornsilk;
+}
+.item1{
+  background-image: url("https://rember.com.ua/image/articles/diaries/corp-diary-3.jpg");
+ background-size: cover;
+    width: 250px;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.item2{
+background-image: url("https://pro100media.com.ua/wp-content/uploads/2023/10/golovna.jpg");
+ background-size: cover;
+    width: 250px;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.item3{
+    background-image: url("https://magiyarukodillya.com.ua/files/categories/%D0%9D%D0%B0%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D0%BA%20-%20%D0%91%D1%96%D0%B6%D1%83%D1%82%D0%B5%D1%80%D0%BD%D0%B0%20%D1%84%D1%83%D1%80%D0%BD%D1%96%D1%82%D1%83%D1%80%D0%B0.jpg");
+ background-size: cover;
+    width: 250px;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+}
+.item{
+    background-size: cover;
+    width: 250px;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.item a{
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.384);
+    margin-bottom: 10px;
+}
+.all-item{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.Background{
+    background-color: lightslategray;
+    padding: 10px;
+}
