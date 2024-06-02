@@ -1,68 +1,103 @@
+body{
+        background-color: #fde6d1 ;
+
+}
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-body{
-    /* background-color: #d5d5d5; */
-}
-img{
-        width: 150px;
+header img{
+width:100px;
+height: 110px;
 }
 header{
-display:flex;
-align-items: center;
-justify-content:space-between;
-padding: 20px;
+    padding:40px 20px;
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+   box-shadow: 0 10px 5px 0 black;
 }
 header a{
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-    color:rgb(255, 255, 255);
-    padding: 5px;
-    background-color: rgb(60, 23, 192);
-    border-radius: 5px;
+    text-decoration:none;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    background-color: #DEAC80;
+    border-radius: 15px;
+    transition:.4s;
+    color:#F7DCB9;
 }
-footer{
+header a:hover{
+    background-color:#F7DCB9;
+    color:#DEAC80;
+    transition:.4s;
+}
+.coffe{
+    position: relative;
+    background-image:linear-gradient(#ffe2c5,#ffdeaf,#e5f1ba);
+    height: 100%;
+}
+.infowe{
+    text-align: center;
 
 }
+.infowe a{
+    text-decoration: none;
+    color:#B99470;
+    background-color:#ffeeda;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
 h1{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding: 10px;
+    color:#5e4d39;
+margin-bottom: 10px;
 }
-main{
-    background-color: royalblue;
+
+   .infowe a:hover{
+    background-color:#e7f0c9;
+    transition: .7s;
+    color:#B5C18E;
+   }
+footer{
+    color:#ddab7f;
+    margin: 30px;
 }
-.product{
+main img{
+    width: 90px;
+    height: 95px;
+    margin: 10px;
+  
+}
+.gallery{
+    padding-top: 50px;
     text-align: center;
-    width: 27%;
-    margin: 20px 0;
-    padding: 20px;
-    border-style:double;
+}
+.gallery img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.gallery img{
+    transition: 0.5s;
     
 }
-.products{
-    display: flex;
-    flex-wrap: wrap;
-   
+.map{
+    padding: 50px;
+    background-color:#e5f1ba;
 }
-img{
-    width: 150px;
-    height: 100px;
-    border-radius: 20px;
+
+.Location{
+    text-align: center;
+    color:#8a6f50;
+    margin-top: 40px;
+
 }
-footer{
-  color:rgb(255, 255, 255);
-    background-color:rgb(52, 18, 177) ;
-    padding: 30px;
+.top{
+    color: #8a6f50;
+    text-align: center;
+  
 }
-a{
-    color: rgb(255, 255, 255);
-   text-decoration:cornsilk;
-}
-.item1{
-  background-image: url("https://rember.com.ua/image/articles/diaries/corp-diary-3.jpg");
+.item{
+    background-image: url("https://i.pinimg.com/236x/b8/5d/d0/b85dd0f770648244f996e9387ea353c6.jpg");
  background-size: cover;
     width: 250px;
     text-align: center;
@@ -73,7 +108,7 @@ a{
     justify-content: end;
 }
 .item2{
-background-image: url("https://pro100media.com.ua/wp-content/uploads/2023/10/golovna.jpg");
+    background-image: url("https://i.pinimg.com/236x/76/d1/f8/76d1f8ab39fb41bc2a396bdc693b4921.jpg");
  background-size: cover;
     width: 250px;
     text-align: center;
@@ -84,7 +119,7 @@ background-image: url("https://pro100media.com.ua/wp-content/uploads/2023/10/gol
     justify-content: end;
 }
 .item3{
-    background-image: url("https://magiyarukodillya.com.ua/files/categories/%D0%9D%D0%B0%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D0%BA%20-%20%D0%91%D1%96%D0%B6%D1%83%D1%82%D0%B5%D1%80%D0%BD%D0%B0%20%D1%84%D1%83%D1%80%D0%BD%D1%96%D1%82%D1%83%D1%80%D0%B0.jpg");
+    background-image: url("https://i.pinimg.com/236x/7b/bb/cc/7bbbcc910f33c80a830a64684d73872b.jpg");
  background-size: cover;
     width: 250px;
     text-align: center;
@@ -94,32 +129,30 @@ background-image: url("https://pro100media.com.ua/wp-content/uploads/2023/10/gol
     align-items: center;
     justify-content: end;
 }
+.infocoffe{
+    text-align: center;
+    background-color: #fde6d1 ;
+    color: #825454                                          ;
 
 }
-.item{
-    background-size: cover;
-    width: 250px;
-    text-align: center;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
+.histocoffe{
+    color: #6a5742;
 }
-.item a{
-    width: 100%;
-    padding: 10px 0;
-    background-color: rgba(0, 0, 0, 0.384);
-    margin-bottom: 10px;
+.deserty{
+text-align: center;
 }
-.all-item{
-    padding: 50px 0;
+
+.shop-item{
     display: flex;
-    justify-content: center;
-    gap: 50px;
     flex-wrap: wrap;
+    justify-content: center;
 }
-.Background{
-    background-color: lightslategray;
-    padding: 10px;
+.shop-item div a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.shop-item div{
+    text-align: center;
 }
