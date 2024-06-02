@@ -1,63 +1,119 @@
+.logo{
+
+}
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-body{
-    /* background-color: #d5d5d5; */
-}
-img{
-        width: 180px;
+header img{
+width:100px;
+height: 110px;
 }
 header{
-display:flex;
-align-items: center;
-justify-content:space-between;
-padding: 20px;
+    padding:40px 20px;
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+   box-shadow: 0 10px 5px 0 black;
 }
 header a{
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-    color:rgb(255, 255, 255);
-    padding: 5px;
-    background-color: rgb(60, 23, 192);
-    border-radius: 5px;
+    text-decoration:none;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    background-color: #DEAC80;
+    border-radius: 15px;
+    transition:.4s;
+    color:#F7DCB9;
 }
-footer{
+header a:hover{
+    background-color:#F7DCB9;
+    color:#DEAC80;
+    transition:.4s;
+}
+.coffe{
+    position: relative;
+    background-image:linear-gradient(#ffe2c5,#ffdeaf,#e5f1ba);
+    height: 100%;
+}
+.infowe{
+    text-align: center;
 
 }
+.infowe a{
+    text-decoration: none;
+    color:#B99470;
+    background-color:#ffeeda;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
 h1{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding: 10px;
+    color:#5e4d39;
+    padding-bottom: 10px;
 }
-main{
-    background-color: royalblue;
+
+   .infowe a:hover{
+    background-color:#e7f0c9;
+    transition: .7s;
+    color:#B5C18E;
+   }
+footer{
+    color:#ddab7f;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
 }
-.product{
+main img{
+    width: 90px;
+    height: 95px;
+    margin: 10px;
+  
+}
+.gallery{
+    padding-top: 50px;
     text-align: center;
-    width: 27%;
-    margin: 20px 0;
-    padding: 20px;
-    border-style:double;
+}
+.gallery img:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.gallery img{
+    transition: 0.5s;
     
 }
-.products{
+.map{
+
+    background-color:#e5f1ba;
+}
+
+.Location{
+    text-align: center;
+    color:#8a6f50;
+    margin-top: 10px;
+
+}
+.company{
+    text-align: center;
+    color: #8a6f50;
+    background-color:#e5f1ba ;
+}
+.textt{
+    background-color:#e5f1ba;
+    color:#6b573f;
+    padding-bottom: 30px;
+}
+.cofffe{
+    height: 150px;
+    width: 145px;
+    background-color:#e5f1ba;
+}
+iframe{
+    width: 100%;
+}
+.textt{
+    padding: 20px 20px;
+}
+.footer-gallery{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-   
-}
-img{
-    width: 150px;
-    height: 100px;
-    border-radius: 20px;
-}
-footer{
-  color:rgb(255, 255, 255);
-    background-color:rgb(52, 18, 177) ;
-    padding: 30px;
-}
-a{
-    color: rgb(255, 255, 255);
-   text-decoration:cornsilk;
 }
